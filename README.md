@@ -65,6 +65,16 @@ git@2.17.1 or higher
 2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
 ```
 
+#### Rebuild & Restart (recommended)
+
+Use these commands together to stop the old container, rebuild the image, and start a fresh auto-removing container without piling up stopped containers or hitting "port already allocated" errors:
+
+```bash
+docker stop developerfolio
+docker build -t developerfolio:latest .
+docker run -d --rm --name developerfolio -p 3000:3000 developerfolio:latest
+```
+
 
 ## How To Use 
 

@@ -31,9 +31,9 @@
   -o-filter: blur(0px);
   -ms-filter: blur(0px);
   filter: blur(0px);
-  height: 11rem;
+  height: 11.5rem;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -45,7 +45,7 @@
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-  height: 11rem;
+  height: 11.5rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -55,31 +55,34 @@
 .experience-div-company {
   position: absolute;
   background: transparent;
-  height: 9rem;
   top: 0;
   left: 0;
   width: 100%;
+  height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .experience-text-company {
   text-align: center;
-  padding: 1.5rem;
   margin: 0;
   color: $lightBackground1;
-  font-size: 25px;
-  text-align: center;
+  font-size: 22px;
   font-weight: 700;
-  text-overflow: ellipsis;
+  line-height: 1.25;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  white-space: nowrap;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 }
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   left: 0;
   right: 0;
   top: 7rem;
@@ -87,7 +90,10 @@
   margin-right: auto;
   width: 8rem;
   height: 8rem;
+  padding: 0.75rem;
+  background-color: #ffffff;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  border: 4px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -118,7 +124,7 @@
 
 .experience-text-details {
   padding: 1.5rem;
-  margin-top: 2rem;
+  margin-top: 3.5rem;
 }
 
 /* Media Query */
@@ -129,7 +135,7 @@
     font-size: 22px;
   }
   .experience-text-company {
-    font-size: 22px;
+    font-size: 20px;
   }
   .experience-text-date {
     font-size: 18px;
