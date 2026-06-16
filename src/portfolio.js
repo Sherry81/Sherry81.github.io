@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Syed Muhammad Abid",
-  title: "Hi all, I'm Syed Muhammad Abid",
+  username: "S. M. Abid",
+  title: "Hi all, I'm S. M. Abid",
   subTitle: emoji(
     "A Senior Full-Stack Software Engineer 🚀 with 7+ years building enterprise-scale web applications across publishing, e-commerce, retail, and fintech using React.js, Next.js, Node.js, Ruby on Rails, and AWS. Currently pursuing an MS in Data Science."
   ),
@@ -300,8 +300,8 @@ const achievementSection = {
       title: "Generative AI for Everyone",
       subtitle:
         "Certification from Coursera / DeepLearning.AI covering generative AI concepts and applications.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Coursera Logo",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "Generative AI Certification",
       footerLink: [
         {
           name: "View Certification",
@@ -313,8 +313,8 @@ const achievementSection = {
       title: "Front-End Web UI Frameworks and Tools",
       subtitle:
         "Certification from Coursera covering modern front-end frameworks, Bootstrap, and UI tooling.",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "Coursera Logo",
+      image: require("./assets/images/jsFramework.svg"),
+      imageAlt: "Front-End Web UI Frameworks Certification",
       footerLink: [
         {
           name: "View Certification",
