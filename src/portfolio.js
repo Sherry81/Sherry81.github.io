@@ -26,7 +26,7 @@ const greeting = {
     "A Senior Full-Stack Software Engineer 🚀 with 7+ years building enterprise-scale web applications across publishing, e-commerce, retail, and fintech using React.js, Next.js, Node.js, Ruby on Rails, and AWS. Currently pursuing an MS in Data Science."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1WBT7txr209HHdXFPM0vk-hLi1uZjRwMmgs_n8QI661E/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1gD522PiIoFVb9tdYK7ZsNtsK5Ah1nnQTkB8IefjdcS4/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -176,7 +176,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Software Developer",
+      role: "Senior Software Engineer",
       company: "Atex Software (via Contour Software)",
       companylogo: require("./assets/images/atexLogo.svg").default,
       date: "November 2024 – Present",
@@ -189,7 +189,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Senior Software Engineer",
+      role: "Software Engineer",
       company: "ACCEO Retail Solutions (via Contour Software)",
       companylogo: require("./assets/images/acceoLogo.png"),
       date: "May 2021 – October 2024",
@@ -201,7 +201,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer",
+      role: "Software Developer",
       company: "Daraz (Alibaba Group)",
       companylogo: require("./assets/images/darazLogo.png"),
       date: "October 2019 – April 2021",
@@ -224,7 +224,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Software Engineer",
+      role: "Software Developer",
       company: "Ciphers Lab",
       companylogo: require("./assets/images/ciphersLabLogo.png"),
       date: "January 2018 – November 2018",
@@ -297,6 +297,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Introduction to AI Agents",
+      subtitle:
+        "Certification from DataCamp covering the fundamentals of building and orchestrating AI agents.",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "Introduction to AI Agents Certification",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://www.datacamp.com/"
+        }
+      ]
+    },
+    {
       title: "Generative AI for Everyone",
       subtitle:
         "Certification from Coursera / DeepLearning.AI covering generative AI concepts and applications.",
@@ -306,6 +319,19 @@ const achievementSection = {
         {
           name: "View Certification",
           url: "https://www.coursera.org/"
+        }
+      ]
+    },
+    {
+      title: "IBM Python for Data Science",
+      subtitle:
+        "Certification from Cognitive Class covering Python programming for data science workflows.",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "IBM Python for Data Science Certification",
+      footerLink: [
+        {
+          name: "View Certification",
+          url: "https://cognitiveclass.ai/"
         }
       ]
     },
