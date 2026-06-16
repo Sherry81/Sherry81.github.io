@@ -300,7 +300,7 @@ const achievementSection = {
       title: "Introduction to AI Agents",
       subtitle:
         "Certification from DataCamp covering the fundamentals of building and orchestrating AI agents.",
-      image: require("./assets/images/skill.svg"),
+      image: require("./assets/images/skill.svg").default,
       imageAlt: "Introduction to AI Agents Certification",
       footerLink: [
         {
@@ -313,7 +313,7 @@ const achievementSection = {
       title: "Generative AI for Everyone",
       subtitle:
         "Certification from Coursera / DeepLearning.AI covering generative AI concepts and applications.",
-      image: require("./assets/images/skill.svg"),
+      image: require("./assets/images/skill.svg").default,
       imageAlt: "Generative AI Certification",
       footerLink: [
         {
@@ -326,7 +326,7 @@ const achievementSection = {
       title: "IBM Python for Data Science",
       subtitle:
         "Certification from Cognitive Class covering Python programming for data science workflows.",
-      image: require("./assets/images/skill.svg"),
+      image: require("./assets/images/skill.svg").default,
       imageAlt: "IBM Python for Data Science Certification",
       footerLink: [
         {
@@ -339,7 +339,7 @@ const achievementSection = {
       title: "Front-End Web UI Frameworks and Tools",
       subtitle:
         "Certification from Coursera covering modern front-end frameworks, Bootstrap, and UI tooling.",
-      image: require("./assets/images/jsFramework.svg"),
+      image: require("./assets/images/jsFramework.svg").default,
       imageAlt: "Front-End Web UI Frameworks Certification",
       footerLink: [
         {
