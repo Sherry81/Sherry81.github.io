@@ -68,6 +68,26 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "javascript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "ruby on rails",
+      fontAwesomeClassname: "fas fa-gem"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -80,40 +100,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra"
+    },
+    {
+      skillName: "postgresql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -305,7 +309,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://www.datacamp.com/"
+          url: "https://www.datacamp.com/completed/statement-of-accomplishment/course/82935b18befc1cbc65b07a53694c3c91987787e5"
         }
       ]
     },
@@ -318,7 +322,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://www.coursera.org/"
+          url: "https://www.coursera.org/account/accomplishments/verify/AHH8O6O647QA"
         }
       ]
     },
@@ -331,7 +335,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://cognitiveclass.ai/"
+          url: "https://courses.cognitiveclass.ai/certificates/247adb69db2a41b9a8a49ef6364dd29c"
         }
       ]
     },
@@ -344,7 +348,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Certification",
-          url: "https://www.coursera.org/"
+          url: "https://www.coursera.org/account/accomplishments/verify/WEYA35ZQSPH2"
         }
       ]
     }
