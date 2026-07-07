@@ -51,9 +51,9 @@ export default function GithubProfileCard({ prof }) {
                 Email: shehrozeali81@gmail.com
               </span>
             </div>
-            <div>
+            <div className="opp-div">
               <span className="contact-details">
-                Phone: +92-330 837 0903
+                Phone: +92 330 837 0903
               </span>
             </div>
             <SocialMedia />
