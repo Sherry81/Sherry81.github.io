@@ -59,7 +59,7 @@ const background = Buffer.from(`
   <circle cx="1080" cy="80" r="160" fill="#ffffff" opacity="0.05"/>
 
   <!-- text block -->
-  <text x="80" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Syed Muhammad Abid</text>
+  <text x="80" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Shehroze Ali</text>
   <text x="80" y="312" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" fill="#8a7bff">Senior Full-Stack Software Engineer</text>
 
   <rect x="82" y="346" width="60" height="5" rx="2.5" fill="#55d6c2"/>
@@ -67,7 +67,7 @@ const background = Buffer.from(`
   <text x="80" y="404" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#c9c5f0">7+ years building enterprise-scale web apps</text>
   <text x="80" y="440" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="400" fill="#c9c5f0">React • Next.js • Node.js • Ruby on Rails • AWS</text>
 
-  <text x="80" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" opacity="0.85">syedmuhammadabid.github.io</text>
+  <text x="80" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#ffffff" opacity="0.85">sherry81.github.io</text>
 
   <!-- avatar ring -->
   <circle cx="${AV_X + AV / 2}" cy="${AV_Y + AV / 2}" r="${
