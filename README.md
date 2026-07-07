@@ -1,6 +1,8 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Shehroze Ali — Developer Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
-## A clean, beautiful and responsive portfolio template for Developers!
+## Personal portfolio for Shehroze Ali, built on the "developerFolio" template for developers.
+
+This is a fork of the excellent [developerFolio](https://github.com/saadpasta/developerFolio) template, customized with Shehroze's resume data (experience, skills, education, and projects) in `src/portfolio.js`. Everything below is the original template's setup/usage documentation, which still applies to running and deploying this fork.
 
 
 <p align="center">
@@ -36,15 +38,17 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Work Experience\
 ✔️ Open Source Projects Connected with GitHub\
 ✔️ Big Projects\
-✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
 ✔️ Contact me\
-✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+The following sections exist in the template but are turned off in `src/portfolio.js` (`display: false`) since there's no corresponding data on the resume yet — set them to `true` and fill in the content whenever you're ready to use them:
+- Achievements And Certifications 🏆
+- Blogs
+- Talks
+- Podcast
+- Twitter Timeline
+
+To view a live example of the template, **[click here](https://developerfolio.js.org/)**.
 
 
 ## Getting Started
@@ -63,16 +67,6 @@ git@2.17.1 or higher
 ```
 1) BUILD IMAGE : docker build -t developerfolio:latest .
 2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
-```
-
-#### Rebuild & Restart (recommended)
-
-Use these commands together to stop the old container, rebuild the image, and start a fresh auto-removing container without piling up stopped containers or hitting "port already allocated" errors:
-
-```bash
-docker stop developerfolio
-docker build -t developerfolio:latest .
-docker run -d --rm --name developerfolio -p 3000:3000 developerfolio:latest
 ```
 
 
@@ -165,18 +159,18 @@ Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Me
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
+  title: "Hi all, I'm Shehroze",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1wSLYOaqudw9fcih-6hvvO9VjFlQsUJO0/view?usp=sharing"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/Sherry81",
+  linkedin: "https://pk.linkedin.com/in/shehroze-ali-088505196",
+  gmail: "shehrozeali81@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7"
 };
 
 
